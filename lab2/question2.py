@@ -1,0 +1,5 @@
+Name=input("Enter name in [LastName, FirstName MidleName] format >")
+comma=(Name.index(", "))
+newname=(Name[comma+2:])
+space=(newname.index(" "))
+print(newname[0:space],newname[space+1]+".",Name[0:comma])
